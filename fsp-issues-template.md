@@ -7,13 +7,11 @@
   - [ ] each wiki page is listed in bullet points
   - [ ] all links route the correct page
 
-## Comments
-
 ---
 
 # MVP List
-- [ ] Should have 7 MVPs.
-  - [ ] 3 of those are User Auth, Heroku, and Production README.
+- [ ] Should have 7 Features.
+  - [ ] 3 of those are User Auth, Render, and Production README.
   - [ ] The other 4 are from the [MVP List](https://github.com/appacademy/curriculum/blob/master/full-stack-project/proposal/mvp-list.md) or they have clarified them with you
 - [ ] Contains a description sentence of the app
 - [ ] Includes two to three detailed bullets on functionality and presentation of feature
@@ -22,8 +20,6 @@
 - [ ] Correctly formatted
   - [ ] MVPs are listed in an ordered list
   - [ ] Each MVP is broken down into bullet points
-
-## Comments
 
 ---
 
@@ -43,8 +39,6 @@
   - [ ] the table header column names are bolded
   - [ ] columns names are lowercased and snaked_cased and `back_ticked`
 
-## Comments
-
 ---
 
 # Sample State
@@ -63,8 +57,6 @@
     + the author username and imageurl for a post. basically any info that the user can’t change
     + like count and a boolean on whether the user likes the post instead of a likes slice
 
-## Comments
-
 ---
 
 # Backend Routes
@@ -75,13 +67,9 @@
 - [ ] Have API routes that will allow the front end to get all info it needs and does not have unneeded routes:
   + probably doesn’t need a `GET likes` api endpoint because that info comes through the post show
 
-## Comments
-
 ---
 
 # Frontend Routes
 - [ ] Frontend routes contains wildcard variables written in `camelCase`
 - [ ] Correctly formatted
   - [ ] Routes are displayed with `inline coding text` (backticks)
-
-## Comments
