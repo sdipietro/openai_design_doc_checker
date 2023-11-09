@@ -42,8 +42,8 @@ async function loginGithub(page) {
     await page.waitForNavigation();
 
     // 2FA
-    await page.waitForSelector('a.btn-primary');
-    await page.click('a.btn-primary');
+    await page.waitForSelector('.Button-content');
+    await page.click('.Button-content');
 
     const smsCode = await prompt('Please enter the SMS code: ');
     await page.type('input[name="sms_otp"]', smsCode);
